@@ -1,6 +1,6 @@
 function [P, Phi] = build_P(theta, Omega)
 %BUILD_P Construct P = Phi_L Omega_L ... Phi_2 Omega_2 Phi_1.
-
+% WZQ SHUAI
 [N,L] = size(theta);
 Phi = cell(L,1);
 for ell = 1:L
